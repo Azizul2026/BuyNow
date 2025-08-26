@@ -67,10 +67,10 @@ export default function App() {
   const [page, setPage] = useState("home"); // "home" | "cart" | "success"
 
   const products = [
-    { id: 1, name: "Wireless Headphones", price: 1999, image: "https://picsum.photos/id/180/300/200" },
-    { id: 2, name: "Smart Watch", price: 2999, image: "https://picsum.photos/id/21/300/200" },
-    { id: 3, name: "Gaming Mouse", price: 999, image: "https://picsum.photos/id/30/300/200" },
-    { id: 4, name: "Laptop Bag", price: 1499, image: "https://picsum.photos/id/1060/300/200" },
+    { id: 1, name: "Wireless Headphones", price: 1999, image: "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Rockerz_650_pp_renders_main_banner.124.png?v=1740735495" },
+    { id: 2, name: "Smart Watch", price: 2999, image: "https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/2025/AUGUST/4/G6q7FbHc_3fd0a2c400fa495eb30833a58301f3b7.jpg" },
+    { id: 3, name: "Gaming Mouse", price: 999, image: "https://m.media-amazon.com/images/I/61Mk3YqYHpL.jpg" },
+    { id: 4, name: "Laptop Bag", price: 1499, image: "https://uniquec.com/wp-content/uploads/18L-bag-600x1111.jpg" },
   ];
 
   const addToCart = (product) => setCart([...cart, product]);
